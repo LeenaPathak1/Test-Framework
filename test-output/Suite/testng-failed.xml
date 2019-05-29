@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.home.basemethods.Listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.home.tests.MemberTests">
+        <methods>
+          <include name="validCredMemberLogin" invocation-numbers="1"/>
+          <include name="launchUrl"/>
+          <include name="readProperties"/>
+        </methods>
+      </class> <!-- com.home.tests.MemberTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
